@@ -1,0 +1,109 @@
+month,supplier_name,supplier_city,orders_fulfilled,on_time_delivery_pct,defect_rate_pct,avg_lead_days,quality_score,ce_compliance,tse_compliance
+2024-07,SafeGuard Tekstil,Istanbul,58,0.83,0.042,4,3.8,Yes,No
+2024-07,SafeGuard Tekstil,Istanbul,214,0.77,0.015,5,4.1,Yes,No
+2024-08,SafeGuard Tekstil,Istanbul,128,0.75,0.031,5,4.0,Yes,Yes
+2024-09,SafeGuard Tekstil,Istanbul,281,0.97,0.051,5,4.0,Yes,No
+2024-10,SafeGuard Tekstil,Istanbul,201,0.9,0.042,4,4.5,Yes,Yes
+2024-11,SafeGuard Tekstil,Istanbul,203,0.93,0.054,5,4.2,Yes,No
+2024-12,SafeGuard Tekstil,Istanbul,157,0.91,0.008,5,3.8,Yes,Yes
+2025-01,SafeGuard Tekstil,Istanbul,159,0.91,0.032,4,4.2,Yes,No
+2025-02,SafeGuard Tekstil,Istanbul,231,0.91,0.036,4,4.2,Yes,Yes
+2025-03,SafeGuard Tekstil,Istanbul,257,0.87,0.039,3,4.3,Yes,Yes
+2025-04,SafeGuard Tekstil,Istanbul,232,0.81,0.012,6,4.1,Yes,Yes
+2025-05,SafeGuard Tekstil,Istanbul,250,0.88,0.013,3,3.8,Yes,Yes
+2025-06,SafeGuard Tekstil,Istanbul,74,0.83,0.053,4,4.1,Yes,Yes
+2025-07,SafeGuard Tekstil,Istanbul,200,0.84,0.019,6,4.3,Yes,Yes
+2025-08,SafeGuard Tekstil,Istanbul,290,0.94,0.035,5,4.0,Yes,Yes
+2025-09,SafeGuard Tekstil,Istanbul,128,0.83,0.015,6,4.0,Yes,Yes
+2025-10,SafeGuard Tekstil,Istanbul,180,0.96,0.036,5,3.8,Yes,Yes
+2025-11,SafeGuard Tekstil,Istanbul,217,0.84,0.029,6,3.8,Yes,No
+2024-07,ProTech Endustri,Kocaeli,105,0.76,0.035,12,3.4,Yes,No
+2024-07,ProTech Endustri,Kocaeli,98,0.92,0.032,12,3.7,Yes,No
+2024-08,ProTech Endustri,Kocaeli,126,0.8,0.013,11,3.9,Yes,Yes
+2024-09,ProTech Endustri,Kocaeli,170,0.9,0.048,11,3.3,Yes,Yes
+2024-10,ProTech Endustri,Kocaeli,241,0.96,0.012,7,4.0,Yes,Yes
+2024-11,ProTech Endustri,Kocaeli,183,0.93,0.037,6,3.3,Yes,Yes
+2024-12,ProTech Endustri,Kocaeli,169,0.91,0.042,8,4.0,Yes,No
+2025-01,ProTech Endustri,Kocaeli,113,0.77,0.041,6,3.5,Yes,Yes
+2025-02,ProTech Endustri,Kocaeli,248,0.98,0.033,10,3.5,Yes,Yes
+2025-03,ProTech Endustri,Kocaeli,281,0.89,0.009,10,4.1,Yes,No
+2025-04,ProTech Endustri,Kocaeli,238,0.81,0.046,12,4.0,Yes,Yes
+2025-05,ProTech Endustri,Kocaeli,48,0.8,0.005,9,3.9,Yes,Yes
+2025-06,ProTech Endustri,Kocaeli,127,0.93,0.024,12,3.4,Yes,Yes
+2025-07,ProTech Endustri,Kocaeli,216,0.96,0.054,5,3.6,Yes,Yes
+2025-08,ProTech Endustri,Kocaeli,121,0.82,0.059,9,3.5,Yes,Yes
+2025-09,ProTech Endustri,Kocaeli,174,0.85,0.05,6,4.0,Yes,No
+2025-10,ProTech Endustri,Kocaeli,116,0.86,0.024,11,3.4,Yes,Yes
+2025-11,ProTech Endustri,Kocaeli,68,0.93,0.033,10,3.9,Yes,Yes
+2024-07,Aegis Safety,Ankara,51,0.76,0.007,4,4.5,Yes,Yes
+2024-07,Aegis Safety,Ankara,77,0.77,0.019,3,4.6,Yes,Yes
+2024-08,Aegis Safety,Ankara,153,0.9,0.029,4,4.0,Yes,Yes
+2024-09,Aegis Safety,Ankara,63,0.79,0.056,4,4.3,Yes,No
+2024-10,Aegis Safety,Ankara,81,0.88,0.032,5,4.2,Yes,Yes
+2024-11,Aegis Safety,Ankara,292,0.8,0.008,3,4.2,Yes,Yes
+2024-12,Aegis Safety,Ankara,101,0.75,0.042,5,4.3,Yes,Yes
+2025-01,Aegis Safety,Ankara,252,0.76,0.028,2,4.0,Yes,No
+2025-02,Aegis Safety,Ankara,147,0.83,0.037,2,4.1,Yes,No
+2025-03,Aegis Safety,Ankara,122,0.94,0.036,5,4.6,Yes,Yes
+2025-04,Aegis Safety,Ankara,83,0.83,0.008,4,4.7,Yes,Yes
+2025-05,Aegis Safety,Ankara,239,0.89,0.015,2,4.1,Yes,No
+2025-06,Aegis Safety,Ankara,202,0.97,0.032,5,4.7,Yes,No
+2025-07,Aegis Safety,Ankara,139,0.95,0.03,2,4.0,Yes,Yes
+2025-08,Aegis Safety,Ankara,51,0.86,0.021,2,4.3,Yes,Yes
+2025-09,Aegis Safety,Ankara,297,0.9,0.02,2,4.2,Yes,Yes
+2025-10,Aegis Safety,Ankara,158,0.97,0.018,3,4.5,Yes,Yes
+2025-11,Aegis Safety,Ankara,236,0.96,0.05,5,4.2,Yes,Yes
+2024-07,TurkGuard ISG,Bursa,241,0.91,0.049,12,3.8,Yes,Yes
+2024-07,TurkGuard ISG,Bursa,49,0.87,0.021,8,3.6,Yes,No
+2024-08,TurkGuard ISG,Bursa,240,0.78,0.05,12,3.1,Yes,Yes
+2024-09,TurkGuard ISG,Bursa,67,0.82,0.044,7,3.2,Yes,No
+2024-10,TurkGuard ISG,Bursa,95,0.95,0.015,15,3.3,Yes,Yes
+2024-11,TurkGuard ISG,Bursa,264,0.91,0.009,14,3.1,Yes,Yes
+2024-12,TurkGuard ISG,Bursa,207,0.82,0.052,9,3.3,Yes,No
+2025-01,TurkGuard ISG,Bursa,208,0.98,0.021,11,3.6,Yes,Yes
+2025-02,TurkGuard ISG,Bursa,96,0.93,0.024,13,3.8,Yes,Yes
+2025-03,TurkGuard ISG,Bursa,65,0.89,0.021,8,3.2,Yes,Yes
+2025-04,TurkGuard ISG,Bursa,179,0.92,0.053,7,3.4,Yes,Yes
+2025-05,TurkGuard ISG,Bursa,226,0.86,0.04,14,3.5,Yes,No
+2025-06,TurkGuard ISG,Bursa,49,0.98,0.008,10,3.5,Yes,Yes
+2025-07,TurkGuard ISG,Bursa,190,0.94,0.025,12,3.1,Yes,Yes
+2025-08,TurkGuard ISG,Bursa,158,0.94,0.056,9,3.3,Yes,Yes
+2025-09,TurkGuard ISG,Bursa,65,0.78,0.027,14,3.7,Yes,No
+2025-10,TurkGuard ISG,Bursa,296,0.92,0.041,10,3.0,Yes,Yes
+2025-11,TurkGuard ISG,Bursa,162,0.98,0.022,15,3.4,Yes,Yes
+2024-07,EuroSafe Import,Istanbul,155,0.78,0.021,21,3.8,Yes,Yes
+2024-07,EuroSafe Import,Istanbul,143,0.76,0.038,18,3.7,Yes,Yes
+2024-08,EuroSafe Import,Istanbul,111,0.95,0.03,13,4.0,Yes,Yes
+2024-09,EuroSafe Import,Istanbul,83,0.95,0.032,13,3.5,Yes,No
+2024-10,EuroSafe Import,Istanbul,273,0.82,0.031,24,4.3,Yes,No
+2024-11,EuroSafe Import,Istanbul,267,0.94,0.008,25,4.3,Yes,Yes
+2024-12,EuroSafe Import,Istanbul,113,0.86,0.02,21,4.0,Yes,Yes
+2025-01,EuroSafe Import,Istanbul,40,0.96,0.03,19,4.1,Yes,No
+2025-02,EuroSafe Import,Istanbul,176,0.85,0.055,10,3.6,Yes,Yes
+2025-03,EuroSafe Import,Istanbul,157,0.78,0.023,14,3.5,Yes,Yes
+2025-04,EuroSafe Import,Istanbul,83,0.9,0.06,10,3.8,Yes,Yes
+2025-05,EuroSafe Import,Istanbul,158,0.78,0.017,21,3.8,Yes,No
+2025-06,EuroSafe Import,Istanbul,236,0.76,0.022,17,4.0,Yes,Yes
+2025-07,EuroSafe Import,Istanbul,47,0.82,0.032,11,3.8,Yes,No
+2025-08,EuroSafe Import,Istanbul,186,0.77,0.009,11,3.9,Yes,No
+2025-09,EuroSafe Import,Istanbul,295,0.9,0.008,18,3.7,Yes,Yes
+2025-10,EuroSafe Import,Istanbul,282,0.76,0.032,24,4.0,Yes,No
+2025-11,EuroSafe Import,Istanbul,211,0.8,0.047,23,3.9,Yes,No
+2024-07,AnatoliaPro,Izmir,187,0.86,0.04,8,4.1,Yes,Yes
+2024-07,AnatoliaPro,Izmir,188,0.84,0.026,4,3.8,Yes,Yes
+2024-08,AnatoliaPro,Izmir,96,0.78,0.026,5,4.2,Yes,Yes
+2024-09,AnatoliaPro,Izmir,299,0.8,0.055,7,4.1,Yes,Yes
+2024-10,AnatoliaPro,Izmir,262,0.75,0.039,6,4.6,Yes,Yes
+2024-11,AnatoliaPro,Izmir,40,0.85,0.043,8,4.3,Yes,Yes
+2024-12,AnatoliaPro,Izmir,287,0.85,0.028,5,4.3,Yes,No
+2025-01,AnatoliaPro,Izmir,122,0.84,0.014,4,3.8,Yes,No
+2025-02,AnatoliaPro,Izmir,178,0.96,0.048,6,4.5,Yes,No
+2025-03,AnatoliaPro,Izmir,119,0.85,0.039,7,4.4,Yes,Yes
+2025-04,AnatoliaPro,Izmir,272,0.83,0.051,8,4.4,Yes,Yes
+2025-05,AnatoliaPro,Izmir,154,0.95,0.039,4,4.3,Yes,No
+2025-06,AnatoliaPro,Izmir,97,0.76,0.021,9,3.9,Yes,No
+2025-07,AnatoliaPro,Izmir,111,0.83,0.022,8,3.9,Yes,Yes
+2025-08,AnatoliaPro,Izmir,275,0.77,0.01,5,4.4,Yes,Yes
+2025-09,AnatoliaPro,Izmir,75,0.94,0.019,8,3.9,Yes,Yes
+2025-10,AnatoliaPro,Izmir,148,0.81,0.054,9,3.9,Yes,Yes
+2025-11,AnatoliaPro,Izmir,79,0.75,0.024,5,3.9,Yes,Yes

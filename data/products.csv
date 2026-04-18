@@ -1,0 +1,105 @@
+sku_id,product_name,category,unit_price,supplier_name,supplier_city,has_ce,has_tse,stock_quantity,return_rate_category
+SKU-1001,Baret Model-A,Baret,82.13,EuroSafe Import,Istanbul,Yes,Yes,387,0.03
+SKU-1002,Baret Model-B,Baret,136.35,AnatoliaPro,Izmir,Yes,No,226,0.03
+SKU-1003,Baret Model-C,Baret,49.02,AnatoliaPro,Izmir,Yes,Yes,268,0.03
+SKU-1004,Baret Model-D,Baret,48.58,EuroSafe Import,Istanbul,Yes,No,342,0.03
+SKU-1005,Baret Model-E,Baret,118.57,EuroSafe Import,Istanbul,Yes,Yes,311,0.03
+SKU-1006,Baret Model-F,Baret,154.27,SafeGuard Tekstil,Istanbul,Yes,Yes,367,0.03
+SKU-1007,Baret Model-G,Baret,90.93,SafeGuard Tekstil,Istanbul,Yes,Yes,500,0.03
+SKU-1008,Baret Model-H,Baret,58.8,SafeGuard Tekstil,Istanbul,No,Yes,193,0.03
+SKU-1009,Baret Model-I,Baret,126.5,SafeGuard Tekstil,Istanbul,Yes,No,245,0.03
+SKU-1010,Baret Model-J,Baret,61.85,EuroSafe Import,Istanbul,No,Yes,292,0.03
+SKU-1011,Baret Model-K,Baret,156.97,SafeGuard Tekstil,Istanbul,Yes,No,108,0.03
+SKU-1012,Baret Model-L,Baret,54.39,EuroSafe Import,Istanbul,Yes,Yes,50,0.03
+SKU-1013,Koruyucu Gozluk Model-A,Koruyucu Gozluk,70.81,SafeGuard Tekstil,Istanbul,Yes,Yes,199,0.05
+SKU-1014,Koruyucu Gozluk Model-B,Koruyucu Gozluk,48.86,SafeGuard Tekstil,Istanbul,Yes,No,489,0.05
+SKU-1015,Koruyucu Gozluk Model-C,Koruyucu Gozluk,88.32,TurkGuard ISG,Bursa,Yes,No,383,0.05
+SKU-1016,Koruyucu Gozluk Model-D,Koruyucu Gozluk,44.71,ProTech Endustri,Kocaeli,No,Yes,483,0.05
+SKU-1017,Koruyucu Gozluk Model-E,Koruyucu Gozluk,91.93,TurkGuard ISG,Bursa,Yes,No,176,0.05
+SKU-1018,Koruyucu Gozluk Model-F,Koruyucu Gozluk,50.61,ProTech Endustri,Kocaeli,Yes,Yes,215,0.05
+SKU-1019,Koruyucu Gozluk Model-G,Koruyucu Gozluk,35.96,SafeGuard Tekstil,Istanbul,Yes,Yes,345,0.05
+SKU-1020,Koruyucu Gozluk Model-H,Koruyucu Gozluk,65.61,SafeGuard Tekstil,Istanbul,No,Yes,145,0.05
+SKU-1021,Is Eldiveni Model-A,Is Eldiveni,50.08,Aegis Safety,Ankara,No,Yes,122,0.04
+SKU-1022,Is Eldiveni Model-B,Is Eldiveni,45.57,ProTech Endustri,Kocaeli,Yes,Yes,450,0.04
+SKU-1023,Is Eldiveni Model-C,Is Eldiveni,24.17,ProTech Endustri,Kocaeli,Yes,No,226,0.04
+SKU-1024,Is Eldiveni Model-D,Is Eldiveni,18.81,Aegis Safety,Ankara,No,No,249,0.04
+SKU-1025,Is Eldiveni Model-E,Is Eldiveni,30.08,Aegis Safety,Ankara,Yes,No,379,0.04
+SKU-1026,Is Eldiveni Model-F,Is Eldiveni,55.9,ProTech Endustri,Kocaeli,Yes,No,184,0.04
+SKU-1027,Is Eldiveni Model-G,Is Eldiveni,32.61,ProTech Endustri,Kocaeli,Yes,Yes,11,0.04
+SKU-1028,Is Eldiveni Model-H,Is Eldiveni,67.55,Aegis Safety,Ankara,Yes,No,400,0.04
+SKU-1029,Is Eldiveni Model-I,Is Eldiveni,45.46,ProTech Endustri,Kocaeli,Yes,No,162,0.04
+SKU-1030,Is Eldiveni Model-J,Is Eldiveni,45.46,Aegis Safety,Ankara,Yes,Yes,201,0.04
+SKU-1031,Is Eldiveni Model-K,Is Eldiveni,47.36,ProTech Endustri,Kocaeli,Yes,No,175,0.04
+SKU-1032,Is Eldiveni Model-L,Is Eldiveni,16.17,AnatoliaPro,Izmir,Yes,Yes,132,0.04
+SKU-1033,Is Eldiveni Model-M,Is Eldiveni,29.45,ProTech Endustri,Kocaeli,Yes,Yes,384,0.04
+SKU-1034,Is Eldiveni Model-N,Is Eldiveni,63.96,AnatoliaPro,Izmir,Yes,Yes,347,0.04
+SKU-1035,Is Eldiveni Model-O,Is Eldiveni,71.81,AnatoliaPro,Izmir,Yes,Yes,280,0.04
+SKU-1036,Guvenlik Ayakkabisi Model-A,Guvenlik Ayakkabisi,534.97,ProTech Endustri,Kocaeli,Yes,No,169,0.06
+SKU-1037,Guvenlik Ayakkabisi Model-B,Guvenlik Ayakkabisi,647.72,TurkGuard ISG,Bursa,Yes,Yes,470,0.06
+SKU-1038,Guvenlik Ayakkabisi Model-C,Guvenlik Ayakkabisi,392.2,ProTech Endustri,Kocaeli,Yes,Yes,42,0.06
+SKU-1039,Guvenlik Ayakkabisi Model-D,Guvenlik Ayakkabisi,189.89,TurkGuard ISG,Bursa,Yes,No,122,0.06
+SKU-1040,Guvenlik Ayakkabisi Model-E,Guvenlik Ayakkabisi,213.37,EuroSafe Import,Istanbul,Yes,Yes,44,0.06
+SKU-1041,Guvenlik Ayakkabisi Model-F,Guvenlik Ayakkabisi,584.03,EuroSafe Import,Istanbul,Yes,No,131,0.06
+SKU-1042,Guvenlik Ayakkabisi Model-G,Guvenlik Ayakkabisi,494.42,TurkGuard ISG,Bursa,Yes,No,77,0.06
+SKU-1043,Guvenlik Ayakkabisi Model-H,Guvenlik Ayakkabisi,619.69,ProTech Endustri,Kocaeli,No,Yes,411,0.06
+SKU-1044,Guvenlik Ayakkabisi Model-I,Guvenlik Ayakkabisi,559.52,TurkGuard ISG,Bursa,Yes,Yes,59,0.06
+SKU-1045,Guvenlik Ayakkabisi Model-J,Guvenlik Ayakkabisi,382.59,ProTech Endustri,Kocaeli,No,Yes,249,0.06
+SKU-1046,Guvenlik Ayakkabisi Model-K,Guvenlik Ayakkabisi,205.46,ProTech Endustri,Kocaeli,Yes,Yes,216,0.06
+SKU-1047,Guvenlik Ayakkabisi Model-L,Guvenlik Ayakkabisi,339.47,ProTech Endustri,Kocaeli,Yes,Yes,108,0.06
+SKU-1048,Guvenlik Ayakkabisi Model-M,Guvenlik Ayakkabisi,432.05,EuroSafe Import,Istanbul,Yes,Yes,103,0.06
+SKU-1049,Guvenlik Ayakkabisi Model-N,Guvenlik Ayakkabisi,397.44,TurkGuard ISG,Bursa,Yes,Yes,423,0.06
+SKU-1050,Guvenlik Ayakkabisi Model-O,Guvenlik Ayakkabisi,226.02,ProTech Endustri,Kocaeli,Yes,Yes,484,0.06
+SKU-1051,Guvenlik Ayakkabisi Model-P,Guvenlik Ayakkabisi,258.17,EuroSafe Import,Istanbul,No,Yes,119,0.06
+SKU-1052,Guvenlik Ayakkabisi Model-Q,Guvenlik Ayakkabisi,604.15,TurkGuard ISG,Bursa,Yes,Yes,11,0.06
+SKU-1053,Guvenlik Ayakkabisi Model-R,Guvenlik Ayakkabisi,304.65,TurkGuard ISG,Bursa,No,Yes,226,0.06
+SKU-1054,Reflektif Yelek Model-A,Reflektif Yelek,37.34,AnatoliaPro,Izmir,Yes,Yes,306,0.02
+SKU-1055,Reflektif Yelek Model-B,Reflektif Yelek,60.24,TurkGuard ISG,Bursa,Yes,Yes,35,0.02
+SKU-1056,Reflektif Yelek Model-C,Reflektif Yelek,55.99,TurkGuard ISG,Bursa,Yes,Yes,270,0.02
+SKU-1057,Reflektif Yelek Model-D,Reflektif Yelek,80.34,AnatoliaPro,Izmir,Yes,No,44,0.02
+SKU-1058,Reflektif Yelek Model-E,Reflektif Yelek,81.02,TurkGuard ISG,Bursa,No,Yes,492,0.02
+SKU-1059,Reflektif Yelek Model-F,Reflektif Yelek,41.0,TurkGuard ISG,Bursa,Yes,No,51,0.02
+SKU-1060,Reflektif Yelek Model-G,Reflektif Yelek,67.73,EuroSafe Import,Istanbul,Yes,Yes,114,0.02
+SKU-1061,Reflektif Yelek Model-H,Reflektif Yelek,71.55,TurkGuard ISG,Bursa,Yes,Yes,212,0.02
+SKU-1062,Reflektif Yelek Model-I,Reflektif Yelek,68.66,AnatoliaPro,Izmir,Yes,Yes,171,0.02
+SKU-1063,Reflektif Yelek Model-J,Reflektif Yelek,25.61,AnatoliaPro,Izmir,Yes,Yes,285,0.02
+SKU-1064,Kulak Koruyucu Model-A,Kulak Koruyucu,89.99,ProTech Endustri,Kocaeli,Yes,Yes,199,0.04
+SKU-1065,Kulak Koruyucu Model-B,Kulak Koruyucu,31.83,EuroSafe Import,Istanbul,Yes,No,423,0.04
+SKU-1066,Kulak Koruyucu Model-C,Kulak Koruyucu,59.67,Aegis Safety,Ankara,Yes,No,63,0.04
+SKU-1067,Kulak Koruyucu Model-D,Kulak Koruyucu,39.83,ProTech Endustri,Kocaeli,Yes,No,293,0.04
+SKU-1068,Kulak Koruyucu Model-E,Kulak Koruyucu,40.43,ProTech Endustri,Kocaeli,Yes,No,185,0.04
+SKU-1069,Kulak Koruyucu Model-F,Kulak Koruyucu,71.56,ProTech Endustri,Kocaeli,Yes,No,260,0.04
+SKU-1070,Kulak Koruyucu Model-G,Kulak Koruyucu,87.9,EuroSafe Import,Istanbul,Yes,Yes,334,0.04
+SKU-1071,Maske / Solunum Model-A,Maske / Solunum,26.68,TurkGuard ISG,Bursa,Yes,No,144,0.03
+SKU-1072,Maske / Solunum Model-B,Maske / Solunum,47.06,TurkGuard ISG,Bursa,No,No,14,0.03
+SKU-1073,Maske / Solunum Model-C,Maske / Solunum,13.76,TurkGuard ISG,Bursa,Yes,No,28,0.03
+SKU-1074,Maske / Solunum Model-D,Maske / Solunum,39.13,Aegis Safety,Ankara,Yes,Yes,75,0.03
+SKU-1075,Maske / Solunum Model-E,Maske / Solunum,25.41,TurkGuard ISG,Bursa,Yes,Yes,117,0.03
+SKU-1076,Maske / Solunum Model-F,Maske / Solunum,22.48,SafeGuard Tekstil,Istanbul,Yes,Yes,409,0.03
+SKU-1077,Maske / Solunum Model-G,Maske / Solunum,54.21,SafeGuard Tekstil,Istanbul,No,No,393,0.03
+SKU-1078,Maske / Solunum Model-H,Maske / Solunum,56.29,TurkGuard ISG,Bursa,Yes,Yes,419,0.03
+SKU-1079,Maske / Solunum Model-I,Maske / Solunum,54.07,TurkGuard ISG,Bursa,Yes,Yes,387,0.03
+SKU-1080,Maske / Solunum Model-J,Maske / Solunum,49.12,Aegis Safety,Ankara,No,No,452,0.03
+SKU-1081,Maske / Solunum Model-K,Maske / Solunum,50.54,SafeGuard Tekstil,Istanbul,Yes,Yes,413,0.03
+SKU-1082,Maske / Solunum Model-L,Maske / Solunum,15.4,SafeGuard Tekstil,Istanbul,Yes,Yes,123,0.03
+SKU-1083,Maske / Solunum Model-M,Maske / Solunum,50.83,TurkGuard ISG,Bursa,No,Yes,166,0.03
+SKU-1084,Maske / Solunum Model-N,Maske / Solunum,21.15,TurkGuard ISG,Bursa,Yes,Yes,178,0.03
+SKU-1085,Is Tulumu Model-A,Is Tulumu,286.79,SafeGuard Tekstil,Istanbul,No,No,441,0.05
+SKU-1086,Is Tulumu Model-B,Is Tulumu,206.1,AnatoliaPro,Izmir,Yes,Yes,459,0.05
+SKU-1087,Is Tulumu Model-C,Is Tulumu,166.43,SafeGuard Tekstil,Istanbul,Yes,Yes,65,0.05
+SKU-1088,Is Tulumu Model-D,Is Tulumu,232.99,AnatoliaPro,Izmir,Yes,Yes,320,0.05
+SKU-1089,Is Tulumu Model-E,Is Tulumu,150.07,AnatoliaPro,Izmir,Yes,Yes,32,0.05
+SKU-1090,Is Tulumu Model-F,Is Tulumu,233.37,AnatoliaPro,Izmir,Yes,Yes,230,0.05
+SKU-1091,Is Tulumu Model-G,Is Tulumu,366.71,Aegis Safety,Ankara,Yes,No,170,0.05
+SKU-1092,Is Tulumu Model-H,Is Tulumu,340.48,AnatoliaPro,Izmir,Yes,No,168,0.05
+SKU-1093,Is Tulumu Model-I,Is Tulumu,226.18,AnatoliaPro,Izmir,No,No,161,0.05
+SKU-1094,Kimyasal Eldiven Model-A,Kimyasal Eldiven,84.87,ProTech Endustri,Kocaeli,No,No,393,0.04
+SKU-1095,Kimyasal Eldiven Model-B,Kimyasal Eldiven,81.16,EuroSafe Import,Istanbul,Yes,Yes,290,0.04
+SKU-1096,Kimyasal Eldiven Model-C,Kimyasal Eldiven,57.79,EuroSafe Import,Istanbul,Yes,Yes,412,0.04
+SKU-1097,Kimyasal Eldiven Model-D,Kimyasal Eldiven,80.5,AnatoliaPro,Izmir,Yes,Yes,236,0.04
+SKU-1098,Kimyasal Eldiven Model-E,Kimyasal Eldiven,85.67,ProTech Endustri,Kocaeli,No,No,96,0.04
+SKU-1099,Kimyasal Eldiven Model-F,Kimyasal Eldiven,41.36,AnatoliaPro,Izmir,Yes,Yes,429,0.04
+SKU-1100,Dusme Onleyici Model-A,Dusme Onleyici,345.78,ProTech Endustri,Kocaeli,Yes,Yes,253,0.02
+SKU-1101,Dusme Onleyici Model-B,Dusme Onleyici,802.33,AnatoliaPro,Izmir,Yes,Yes,222,0.02
+SKU-1102,Dusme Onleyici Model-C,Dusme Onleyici,624.19,AnatoliaPro,Izmir,No,Yes,214,0.02
+SKU-1103,Dusme Onleyici Model-D,Dusme Onleyici,345.92,ProTech Endustri,Kocaeli,Yes,Yes,408,0.02
+SKU-1104,Dusme Onleyici Model-E,Dusme Onleyici,392.25,Aegis Safety,Ankara,No,Yes,295,0.02
