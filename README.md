@@ -1,276 +1,103 @@
-# 📊 E-Commerce Operations Analysis
+# E-Commerce Operations Analysis: Sales Performance & Process Improvement
 
-**Sales Performance & Process Improvement for Multi-Marketplace B2B Operations**
+> A data-driven case study analyzing e-commerce operations across Trendyol, Hepsiburada, and GuvenliCalis — covering sales performance, order fulfillment, return analysis, and supplier evaluation for an occupational safety equipment business.
 
-> A comprehensive data-driven case study analyzing e-commerce operations across three major Turkish marketplaces (Trendyol, Hepsiburada, GuvenliCalis), covering sales performance, order fulfillment, return analysis, and supplier evaluation for an occupational safety equipment business.
+## Business Context
 
----
+A mid-size occupational safety equipment company operates across three online marketplaces, managing **150+ product SKUs** and processing **200+ orders per day**. This analysis covers **105,000+ orders** over an **18-month period** (July 2024 – December 2025).
 
-## 📋 Table of Contents
+The operations team coordinates with 6 departments (Procurement, Sales, Accounting, Product Management, Import, Certification) to ensure smooth order fulfillment, compliance, and supplier management.
 
-- [Project Overview](#-project-overview)
-- [Key Metrics & Findings](#-key-metrics--findings)
-- [Project Structure](#-project-structure)
-- [Getting Started](#-getting-started)
-- [Data Dictionary](#-data-dictionary)
-- [Analysis Highlights](#-analysis-highlights)
-- [Technologies & Tools](#-technologies--tools)
-- [Key Recommendations](#-key-recommendations)
-- [Dashboard & Visualization](#-dashboard--visualization)
-- [License](#-license)
+**Business questions this analysis answers:**
 
----
+1. Which platforms and categories drive the most revenue?
+2. Where are the bottlenecks in the order fulfillment process?
+3. Which suppliers have compliance gaps or quality issues?
+4. How do return rates vary across categories, and what causes them?
+5. What data supports better pricing, inventory, and procurement decisions?
 
-## 📈 Project Overview
-
-A mid-size occupational safety equipment company operates across three online marketplaces, managing **150+ product SKUs** and processing **200+ orders per day**. This analysis covers **105,000+ orders** over an **18-month period** (July 2024 – December 2025), examining:
-
-✅ **Sales Performance** – Revenue trends across platforms with commission impact analysis  
-✅ **Order Fulfillment** – Shipping delays, supplier lead times, and delivery performance  
-✅ **Return Analysis** – Category-specific return patterns and customer satisfaction  
-✅ **Supplier Evaluation** – Compliance gaps, quality metrics, and performance scorecarding  
-✅ **B2B Patterns** – Weekend volume analysis revealing corporate procurement behavior  
-
----
-
-## 🎯 Key Metrics & Findings
-
-| Metric | Value | Insight |
-|--------|-------|---------|
-| **Total Orders Analyzed** | 105,000+ | 18-month dataset |
-| **Active Suppliers** | 6 | Diverse sourcing |
-| **Product Categories** | 20+ | Safety equipment focus |
-| **Platform Revenue Share** | Trendyol 50% | Volume leader (12% commission) |
-| **Average Return Rate** | ~4-5% | Varies by category |
-| **Weekend Drop** | 40-50% | Strong B2B signal |
-| **Avg On-Time Delivery** | 87% | Supplier-dependent |
-
-### 📌 Top Findings
-
-1. **Platform Profitability Gap** – Trendyol volume (50%) masks 12% commission; lower-commission platforms more profitable per order
-2. **Return Rate Clustering** – Physical fit categories (shoes, overalls) → 8%+ returns vs. hard hats → <2%
-3. **Supplier Compliance Risk** – Not all SKUs carry both CE + TSE certifications
-4. **Shipping Delay Correlation** – Long lead-time suppliers = higher late delivery rates
-5. **B2B Customer Base** – Weekday/weekend volume drop pattern indicates corporate buyers
-
-→ [See full findings analysis](docs/FINDINGS.md)
-
----
-
-## 📁 Project Structure
+## Project Structure
 
 ```
 ecommerce-ops-analysis/
-├── README.md                              # This file
-├── data/                                  # Raw CSV datasets
-│   ├── orders.csv                         # 105K+ order records
-│   ├── products.csv                       # Product catalog & attributes
-│   └── supplier_performance.csv           # Supplier metrics & compliance
-├── sql/                                   # SQL analysis scripts
-│   ├── 01_schema.sql                      # Database setup (SQLite)
-│   ├── 02_sales_analysis.sql              # Revenue, platform, category analysis
-│   └── 03_process_analysis.sql            # Returns, shipping, supplier queries
-├── powerbi/                               # Business intelligence
-│   ├── DASHBOARD_GUIDE.md                 # Power BI setup instructions
-│   └── screenshots/                       # Dashboard visualizations
-└── docs/                                  # Documentation
-    ├── FINDINGS.md                        # Executive findings & recommendations
-    └── METHODOLOGY.md                     # Analysis approach & assumptions
+├── README.md
+├── data/
+│   ├── orders.csv              # 105K+ orders across 3 platforms
+│   ├── products.csv            # 104 SKUs with compliance flags
+│   └── supplier_performance.csv # Monthly supplier KPIs
+├── sql/
+│   ├── 01_schema.sql           # Table definitions
+│   ├── 02_sales_analysis.sql   # Revenue, platform, category analysis
+│   └── 03_process_analysis.sql # Returns, shipping, supplier evaluation
+├── powerbi/
+│   └── DASHBOARD_GUIDE.md      # Step-by-step Power BI build guide
+└── docs/
+    └── FINDINGS.md             # Key findings and recommendations
 ```
 
----
-
-## 🚀 Getting Started
-
-### Prerequisites
-- **SQL Analysis**: SQLite3, MySQL, or PostgreSQL
-- **Power BI**: Power BI Desktop (optional, for visualization)
-- **Data Tools**: Excel, Python (pandas), or R (for quick exploration)
-
-### Quick Start
-
-#### 1️⃣ **Load Data & Schema**
-```bash
-# Using SQLite (recommended)
-sqlite3 ecommerce_analysis.db < sql/01_schema.sql
-
-# Import CSV files into the database
-.import data/orders.csv orders
-.import data/products.csv products
-.import data/supplier_performance.csv supplier_performance
-```
-
-#### 2️⃣ **Run Analysis Queries**
-```bash
-# Sales analysis
-sqlite3 ecommerce_analysis.db < sql/02_sales_analysis.sql
-
-# Process & operations analysis
-sqlite3 ecommerce_analysis.db < sql/03_process_analysis.sql
-```
-
-#### 3️⃣ **Build Power BI Dashboard** (Optional)
-1. Open Power BI Desktop
-2. Follow [DASHBOARD_GUIDE.md](powerbi/DASHBOARD_GUIDE.md)
-3. Import CSV files from `/data` folder
-4. Create data model with relationships
-5. Build visualizations per guide
-
----
-
-## 📊 Data Dictionary
-
-### **orders.csv** (105,000+ records)
-| Column | Type | Description |
-|--------|------|-------------|
-| order_id | INT | Unique order identifier |
-| order_date | DATE | Purchase date (YYYY-MM-DD) |
-| customer_city | TEXT | Customer location |
-| sku_id | TEXT | Product reference |
-| platform | TEXT | Marketplace (Trendyol, Hepsiburada, GuvenliCalis) |
-| product_category | TEXT | Safety equipment category |
-| unit_price | FLOAT | Price per unit (TRY) |
-| quantity | INT | Units ordered |
-| total_revenue | FLOAT | Gross revenue |
-| commission_pct | FLOAT | Platform commission (%) |
-| net_revenue | FLOAT | Revenue after commission |
-| order_status | TEXT | Delivered / Returned / Cancelled |
-| shipping_days | INT | Days from order to delivery |
-| supplier_name | TEXT | Supplier (6 active) |
-
-### **products.csv** (150+ SKUs)
-| Column | Type | Description |
-|--------|------|-------------|
-| sku_id | TEXT | Product code |
-| product_name | TEXT | Product title |
-| category | TEXT | Safety equipment type |
-| price_tier | TEXT | Budget / Mid / Premium |
-| has_ce_cert | BOOLEAN | CE certification status |
-| has_tse_cert | BOOLEAN | TSE certification status |
-
-### **supplier_performance.csv** (6 suppliers)
-| Column | Type | Description |
-|--------|------|-------------|
-| supplier_name | TEXT | Supplier identifier |
-| avg_lead_days | INT | Average manufacturing lead time |
-| avg_otd_pct | FLOAT | On-time delivery percentage |
-| defect_rate_pct | FLOAT | Quality defect rate (%) |
-| quality_score | FLOAT | Composite quality rating (1-5) |
-| ce_coverage_pct | FLOAT | SKUs with CE cert (%) |
-| tse_coverage_pct | FLOAT | SKUs with TSE cert (%) |
-
----
-
-## 🔍 Analysis Highlights
-
-### 💰 **Revenue Insights**
-- **Trendyol dominates volume** (50% of orders) but 12% commission reduces net margins
-- **Hepsiburada (10% commission)** and **GuvenliCalis (8% commission)** more profitable per order
-- Recommendation: Reallocate marketing spend to lower-commission platforms for high-volume categories
-
-### 📦 **Return Pattern Analysis**
-- **High-risk categories** (safety shoes, overalls): 8-10% return rate
-  - Root cause: Size/fit uncertainty
-  - Solution: Enhanced product pages with detailed measurements, comparison charts
-- **Low-risk categories** (reflective vests, hard hats): <2% return rate
-- **Overall average**: 4-5% (acceptable for e-commerce)
-
-### ✅ **Supplier Performance**
-- **Compliance gaps**: Not all suppliers certified for all products
-- **Lead time impact**: Suppliers with 30+ day lead times show 15-20% lower on-time delivery
-- **Quality variation**: Quality scores range from 3.2 to 4.8 out of 5
-
-### 📈 **B2B Behavioral Signals**
-- **40-50% order volume drop on weekends** (typical of corporate purchasing)
-- Suggests customer base is primarily businesses, not individual consumers
-- Implication: Pricing strategy and bulk discounts could be optimized for corporate cycles
-
----
-
-## 🛠️ Technologies & Tools
+## Tools Used
 
 | Tool | Purpose |
 |------|---------|
-| **SQL** | Data extraction, aggregation, complex joins |
-| **Power BI** | Interactive dashboards and visualizations |
-| **CSV** | Data storage format (platform-agnostic) |
-| **SQLite** | Lightweight database for local analysis |
-| **Excel/Sheets** | Data review and ad-hoc analysis |
+| **SQL (SQLite)** | Data querying, joins, aggregations, window functions |
+| **Power BI** | Interactive dashboards and visual reporting |
+| **DB Browser for SQLite** | Local database management and query execution |
+| **Excel** | Initial data exploration and quick pivot analysis |
+
+## How to Run
+
+### SQL Queries
+1. Download and install [DB Browser for SQLite](https://sqlitebrowser.org/)
+2. Create a new database
+3. Import the 3 CSV files from `/data` as tables
+4. Run `sql/01_schema.sql` to verify table structure
+5. Execute queries from `sql/02_sales_analysis.sql` and `sql/03_process_analysis.sql`
+
+### Power BI Dashboard
+1. Open Power BI Desktop
+2. Follow the step-by-step guide in `powerbi/DASHBOARD_GUIDE.md`
+3. Import CSV files, create relationships, and build the 3-page dashboard
+
+## Key Findings
+
+### Sales Performance
+- **Trendyol** drives approximately 50% of order volume but platform commission rates vary — net revenue per order analysis reveals which platform is most profitable after fees.
+- **Guvenlik Ayakkabisi** (safety shoes) and **Dusme Onleyici** (fall protection) are high-value categories with the highest average order values.
+- Weekend order volume drops ~40-50% compared to weekdays, suggesting B2B-heavy customer base.
+
+### Process & Operations
+- **Return rates** vary significantly by category — categories with higher price points (safety shoes, work overalls) show higher return rates, likely driven by sizing issues.
+- **Shipping performance** averages 1-5 days across platforms, with late shipments (>3 days) representing a measurable portion of deliveries.
+- The **order fulfillment funnel** shows that Returns + Cancellations combined represent the primary revenue leakage point.
+
+### Supplier Evaluation
+- A **composite supplier scorecard** (weighted: 40% on-time delivery, 30% defect rate, 30% quality score) reveals clear performance tiers across 6 suppliers.
+- **CE/TSE compliance gaps** exist — some suppliers have SKUs lacking full certification, creating audit risk.
+- Suppliers with longer lead times correlate with lower on-time delivery rates, supporting the case for closer procurement coordination.
+
+## Recommendations
+
+1. **Focus return reduction efforts** on high-value categories (safety shoes, work overalls) — adding size guides or product specification detail to marketplace listings could reduce size-related returns.
+2. **Review low-compliance suppliers** — products without CE or TSE certification should be flagged and escalated to the certification department.
+3. **Evaluate platform profitability** beyond gross revenue — commission structure differences mean the highest-volume platform is not necessarily the most profitable.
+4. **Optimize shipping workflows** — late shipment analysis by platform and city can guide cargo partner negotiations.
+
+## About
+
+This project was created as a portfolio case study to demonstrate practical business analysis skills — data querying, operational reporting, process gap identification, and data-driven recommendations — applied to a real-world e-commerce operations context.
 
 ---
 
-## 💡 Key Recommendations
+*Dataset is synthetic but modeled on realistic operational patterns from Turkish e-commerce marketplace operations.*
+# E-Commerce Operations Analysis: Sales Performance & Process Improvement
 
-### 1. **Optimize Platform Mix**
-- Evaluate shifting 20-30% marketing spend from Trendyol to lower-commission platforms
-- Impact: +2-3% net margin improvement on high-volume categories
+> A data-driven case study analyzing e-commerce operations across Trendyol, Hepsiburada, and GuvenliCalis — covering sales performance, order fulfillment, return analysis, and supplier evaluation for an occupational safety equipment business.
 
-### 2. **Reduce Returns Through Content**
-- Enhance product pages for high-return categories with:
-  - Detailed size guides with comparison tables
-  - 360° product photos and dimension diagrams
-  - Customer review highlights with measurements
-- Expected impact: 30-40% reduction in return rates for affected categories
+## Business Context
 
-### 3. **Implement Supplier Scorecard**
-- Weight evaluation as: **40% On-Time Delivery** + **30% Quality** + **30% Compliance**
-- Monthly reporting to certification team for compliance gap remediation
+A mid-size occupational safety equipment company operates across three online marketplaces, managing **150+ product SKUs** and processing **200+ orders per day**. This analysis covers **105,000+ orders** over an **18-month period** (July 2024 – December 2025).
 
-### 4. **Buffer Stock Strategy**
-- Maintain 2-4 weeks of inventory for high-lead-time suppliers (25+ days)
-- Reduces shipping delays during peak demand periods
-
-### 5. **B2B-Specific Strategy**
-- Launch corporate bulk discount tiers (10+, 50+, 100+ units)
-- Develop monthly procurement calendar aligned with corporate budgeting cycles
-- Create dedicated account management for B2B customers
-
----
-
-## 📊 Dashboard & Visualization
-
-The `/powerbi` folder contains a complete Power BI dashboard template with three pages:
-
-1. **Sales Overview** – Monthly trends, category breakdown, platform comparison
-2. **Process & Operations** – Returns, shipping delays, fulfillment metrics
-3. **Supplier Scorecard** – Performance ranking, compliance status, quality trends
-
-→ [See Power BI Setup Guide](powerbi/DASHBOARD_GUIDE.md)
-
-**Sample KPIs displayed:**
-- Total Orders, Net Revenue, Average Order Value, Return Rate %
-- Avg Shipping Days, Late Shipment %, Category Performance
-- Supplier Quality Scores, Compliance Coverage, Lead Time Analysis
-
----
-
-## 📄 Documentation Files
-
-- **[FINDINGS.md](docs/FINDINGS.md)** – Executive summary with 5 key findings and actionable recommendations
-- **[DASHBOARD_GUIDE.md](powerbi/DASHBOARD_GUIDE.md)** – Step-by-step Power BI setup instructions
-- **SQL Scripts** – Ready-to-run analysis queries for custom insights
-
----
-
-## 📧 Contact & Questions
-
-For questions about this analysis, please refer to the [FINDINGS.md](docs/FINDINGS.md) document or review the SQL scripts in the `/sql` folder for methodology details.
-
----
-
-## 📜 License
-
-This project is provided as-is for educational and analytical purposes. The datasets are synthetic but modeled on realistic operational patterns.
-
----
-
-<div align="center">
-
-**Created for:** E-Commerce Operations Excellence  
-**Analysis Period:** July 2024 – December 2025  
-**Data Points:** 105,000+ orders | 150+ products | 6 suppliers  
-
-</div>ations team coordinates with 6 departments (Procurement, Sales, Accounting, Product Management, Import, Certification) to ensure smooth order fulfillment, compliance, and supplier management.
+The operations team coordinates with 6 departments (Procurement, Sales, Accounting, Product Management, Import, Certification) to ensure smooth order fulfillment, compliance, and supplier management.
 
 **Business questions this analysis answers:**
 
