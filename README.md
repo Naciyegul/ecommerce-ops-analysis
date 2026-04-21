@@ -59,6 +59,16 @@ ecommerce-ops-analysis/
 3. Import CSV files, create relationships, and build the 3-page dashboard
 
 ## Key Findings
+## Dashboard Preview
+
+### Sales Overview
+![Sales Overview](powerbi/Sales%20Overview.png)
+
+### Process & Operations
+![Process & Operations](powerbi/Process%20%26%20Operations.png)
+
+### Supplier Scorecard
+![Supplier Scorecard](powerbi/Supplier%20Scorecard.png)
 
 ### Sales Performance
 - **Trendyol** drives approximately 50% of order volume but platform commission rates vary — net revenue per order analysis reveals which platform is most profitable after fees.
